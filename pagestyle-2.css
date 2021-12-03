@@ -1,0 +1,74 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+
+h2,
+h4 {
+  color: #e4bf7d;
+}
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 23px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #e4bf7d;
+}
+
+.main-author {
+  font-style: italic;
+  font-size: 16px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.all-channels {
+  font-weight: bold;
+}
+
+.courses {
+  list-style: none;
+}
+
+.main-header {
+  text-align: center;
+}
+
+.top-and-bottom {
+  background-color: #4e382a;
+  color: #e4bf7d;
+  border: 3px solid #d19051;
+}
+
+body {
+  background-color: #1d1d1d;
+}
+
+.course-banners {
+  border: 1px solid #b52b17;
+}

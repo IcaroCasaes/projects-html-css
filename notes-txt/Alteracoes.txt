@@ -1,0 +1,2 @@
+- Adicionar janela modal com formulário de inscrição no news letter para os "coming soon!"
+- Definir classes html para otimizar o processo do css
