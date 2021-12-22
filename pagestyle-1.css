@@ -31,6 +31,7 @@ a {
 h1 {
   font-size: 26px;
   margin-bottom: 15px;
+  float: left;
 }
 
 h2 {
@@ -85,7 +86,6 @@ button {
   margin-bottom: 30px;
 }
 
-button:hover,
 button:active {
   border: 3px inset #666;
 }
@@ -95,17 +95,18 @@ button a:visited {
   color: #b8860b;
 }
 
-button a:hover,
 button a:active {
   color: #1c1c1c;
 }
 
+nav a {
+  color: #1c1c1c;
+}
+
 nav {
-  background-color: #c90;
   font-size: 20px;
-  text-align: center;
   border: none;
-  width: 100%;
+  float: right;
 }
 
 nav a:visited {
@@ -118,6 +119,7 @@ nav a:hover {
 }
 
 .container {
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -129,6 +131,11 @@ nav a:hover {
 
 .author {
   padding: 10px 25px;
+}
+
+.the-author {
+  border-radius: 30px;
+  float: left;
 }
 
 .channels {
@@ -144,11 +151,8 @@ nav a:hover {
   margin: 0 25px;
 }
 
-.the-author {
-  border-radius: 30px;
-}
-
 .main-author {
+  float: left;
   font-style: italic;
   font-size: 16px;
 }
@@ -178,12 +182,8 @@ nav a:hover {
   font-size: 20px;
 }
 
-.course-buttons:hover {
-  background-color: #d9b01c;
-}
-
 .course-buttons:active {
-  background-color: #c90;
+  background-color: #d9b01c;
 }
 
 /*
